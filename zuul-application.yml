@@ -6,6 +6,7 @@ server:
 #DB Configuration:
 
 spring:
+  profiles: dev # 开发环境
   application:
     name: zuul_server #指定服务名
 
