@@ -1,5 +1,7 @@
 server:
   port: 6868
+spring:
+  profiles: dev # 开发环境  
 eureka:
   client:
     registerWithEureka: false # 服务注册开关
